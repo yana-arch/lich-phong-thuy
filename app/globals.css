@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold: #d4af37;
+  --color-gold-bright: #f9e295;
+  --color-crimson: #4a0404;
+  --color-bg-dark: #0a0805;
+  --color-panel-bg: rgba(20, 15, 10, 0.8);
+  --color-text-main: #e0d5c1;
+  --color-accent: #ff4500;
+}
+
+:root {
+  --gold: #d4af37;
+  --gold-bright: #f9e295;
+  --crimson: #4a0404;
+  --bg: #0a0805;
+  --panel-bg: rgba(20, 15, 10, 0.8);
+  --text: #e0d5c1;
+  --accent: #ff4500;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  background-image: radial-gradient(circle at 50% 50%, #2a1b10 0%, transparent 70%);
+  background-attachment: fixed;
+}
